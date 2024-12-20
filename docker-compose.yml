@@ -1,5 +1,5 @@
 services:
-  qoptimiser:
+  qsequencer:
     image: enayet123/qsequencer:latest
     container_name: qsequencer
     restart: unless-stopped
