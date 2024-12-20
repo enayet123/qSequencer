@@ -1,0 +1,9 @@
+services:
+  qoptimiser:
+    image: enayet123/qoptimiser:latest
+    container_name: qsequencer
+    restart: unless-stopped
+    environment:
+      - QBITTORRENT_URL=http://192.168.1.1:8090
+      - QBITTORRENT_USERNAME=
+      - QBITTORRENT_PASSWORD=
