@@ -2,7 +2,7 @@
 
 A companion application for [qBittorrent](https://www.qbittorrent.org) to handle sequential data checking and improving the performance on hard drives by reducing the likiness of seek thrashing and random seek latency.
 
-> **Note:** You must have `Pre-allocate disk space for all files` enabled in qBittorrent under the Downloads section
+> **Note:** You must have `Pre-allocate disk space for all files` enabled in qBittorrent under the Downloads section.
 > This prevents data fragmentation and improves sequential file read time
 
 ## Installation/Setup
